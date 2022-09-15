@@ -69,6 +69,113 @@ header{
     display: none;
 }
 
+.ausejo-image{
+    height: 300px;
+}
+
+.ausejo-image{
+    margin: 30px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.ausejo-image{
+    border: solid;
+    border-color: #99A799;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.text{
+    border: solid;
+    border-color: #99A799;
+    border-top: #DCD7C9;
+    background: #99A799;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 5px;
+    width: 290px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.text{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile Screen */
 
 @media only screen and (max-width: 633px) {
