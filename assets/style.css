@@ -248,7 +248,7 @@ header{
     text-decoration: none;
     color: #e0e0e0;
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 16px;
 }
 .mail-me:hover{
@@ -308,8 +308,213 @@ header{
     transition: ease-in-out 200ms;
 }
 
-.home-bgrd{
+.home-page-title{
+    text-align: center;
     border: solid;
+    border-color: #3F4E4F;
+    background-color: #3F4E4F;
+    border-radius: 10px;
+    margin: 40px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.heading-title{
+    border: solid;
+    border-color: #2C3333;
+    background-color: #2C3333;
+    margin: 0;
+    border-top-right-radius: 6  px;
+    border-top-left-radius: 6px;
+    color: #DCD7C9;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.greeting-welcome{
+    color: #DCD7C9;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.paragraphs{
+    padding: 50px;
+    text-align: justify;
+    color: #DCD7C9;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.home-page-introduction{
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    border: solid;
+    border-color: #3F4E4F;
+    background: #3F4E4F;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.introduction{
+    text-align: center;
+    border: solid;
+    border-color: #2C3333;
+    background-color: #2C3333;
+    margin: 0;
+    border-top-right-radius: 6  px;
+    border-top-left-radius: 6px;
+    color: #DCD7C9;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.greeting-introduction{
+    color: #DCD7C9;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.introduction-paragraph{
+    padding: 50px;
+    text-align: justify;
+    color: #DCD7C9;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.home-page-footer{
+    margin-top: 83px;
+    background: #2C3333;
+}
+
+.footer-paragraph{
+    text-align: center;
+    color: #DCD7C9;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.group-link{
+    text-decoration: none;
+    color: #DCD7C9;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+.group-link:hover{
+    color: #c29e00;
+    transition: 200ms;
+}
+
+.sample-person{
+    height: 300px;
+}
+
+.sample-person{
+    margin-bottom: 1px;
+    position: absolute;
+    top: 84px;
+    right: 27px;
+}
+
+.sample-person{
+    border: solid;
+    border-color: #2C3333;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.person-example{
+    color: #DCD7C9;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.person-example{
+    position: absolute;
+    top: 387px;
+    right:  27px;
+}
+
+.person-example{
+    border: solid;
+    border-color: #2C3333;
+    border-top: #2C3333;
+    background: #2C3333;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 5px;
+    width: 290px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.about-career{
+    text-align: center;
+    border: solid;
+    border-color: #3F4E4F;
+    background-color: #3F4E4F;
+    border-radius: 10px;
+    margin: 40px;
+    width: 800x;
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.career-heading{
+    border: solid;
+    border-color: #2C3333;
+    background-color: #2C3333;
+    margin: 0;
+    border-top-right-radius: 6  px;
+    border-top-left-radius: 6px;
+    color: #DCD7C9;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.about-cyber-sec{
+    padding: 50px;
+    text-align: justify;
+    color: #DCD7C9;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.reference{
+    text-decoration: none;
+    padding-left: 40px;
+    text-align: left;
+    color: #DCD7C9;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.reference_link{
+    text-decoration: none;
+    text-align: left;
+    color: #DCD7C9;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+.reference_link:hover{
+    color: #c29e00;
+    font-size: 24px;
+    transition: 200ms;
 }
 
 
@@ -371,80 +576,3 @@ header{
 
 
 
-
-
-
-
-/* Mobile Screen */
-
-@media only screen and (max-width: 633px) {
-    .name{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .navbar-items{
-        display: none;
-    }
-
-    .nav-menu{
-        display: contents;
-    }
-
-    .navbar-mobile{
-        margin: 0;  
-        position: relative;
-        top: 50px;
-        left: 0px;
-    }
-
-    .navbar-mobile{
-        flex-direction: row;
-        border: solid;
-        border-color: #A27B5C;
-        background: #A27B5C;
-        position: absolute;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .mobile-links{
-        text-decoration: none;
-    }
-
-    .mobile-links{
-        margin: 0 5px;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-        color: #2C3639;
-    }
-    .mobile-links:hover{
-        color: #DCD7C9;
-        transition: 200ms;
-    }
-
-    .mobile-btn-about{
-        margin: 0 15px;
-        border: solid;
-        background-color: #3F4E4F;
-        border-color: #3F4E4F;
-        border-radius: 20px;
-        padding: 1px;
-        width: 100px;
-        position: relative;
-        cursor: pointer;
-    }
-
-    .mobile-btn-about{
-        font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-        color: #DCD7C9;
-    }
-
-    .mobile-btn-about:hover{
-        border-color: #2C3639;
-        background-color: #2C3639;
-        transition: 200ms;
-    }
-}
